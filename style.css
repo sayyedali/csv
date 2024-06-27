@@ -1,11 +1,20 @@
 .cards-container{
-    max-width: 820px !important;
+    max-width: 1000px !important;
 	display: flex !important;
 	flex-flow: row wrap !important;
 	justify-content: space-between !important;
 }
 
 .card {
-	background-color: red !important;;
-	width: 400px !important;
+	/* background-color: red !important; */
+	width: 490px !important;
+}
+
+
+
+@media print {
+    .card{
+        break-inside: avoid;
+        
+    }
 }
