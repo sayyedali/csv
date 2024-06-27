@@ -12,9 +12,14 @@
 
 
 
+
 @media print {
     .card{
         break-inside: avoid;
         
+    }
+
+    .top-btn{
+        display: none;
     }
 }
