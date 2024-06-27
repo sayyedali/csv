@@ -15,7 +15,7 @@
 
 @media print {
     .card{
-        break-inside: avoid;
+        break-inside: avoid !important;
         
     }
 
